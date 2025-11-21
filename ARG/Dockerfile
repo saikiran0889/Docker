@@ -5,3 +5,5 @@ arg course="docker"
     trainer="saikiran"
 
 run echo trainer=${trainer}, course=${course}
+
+cmd ["sleep","1000"]
