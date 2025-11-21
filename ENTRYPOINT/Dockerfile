@@ -1,2 +1,3 @@
 from almalinux:9
-cmd ["ping","outokumpu.com"]
+#cmd ["ping","outokumpu.com"]
+entrypoint ["ping","outokumpu.com"]
