@@ -3,7 +3,7 @@ from almalinux:${version:-9}
 
 arg course="docker" \
     trainer="saikiran"
-
+env course=${course}
 run echo "trainer: ${trainer}, course: ${course}, version: ${version}"
 
 cmd ["sleep","1000"]
